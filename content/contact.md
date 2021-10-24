@@ -5,23 +5,22 @@ slug = "contact"
 
 Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
 
- **Kaiserpfalz EDV-Service**
- Roland T. Lichti
- Darmstädter Straße 12
- 64625 Bensheim
+> **Kaiserpfalz EDV-Service**
+> Roland T. Lichti
+> Darmstädter Straße 12
+> 64625 Bensheim
+>
+> **Tel.:** +49 171 218 59 27
+> **E-Mail:** info@kaiserpfalz-edv.de(info@kaiserpfalz-edv.de)
 
- **Tel.:** +49 171 218 59 27
- **E-Mail:** info@kaiserpfalz-edv.de(info@kaiserpfalz-edv.de)
 
-
-**Kontaktdaten des Verantwortlichen für Datenschutz**
-
+## Kontaktdaten des Verantwortlichen für Datenschutz
 
 Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdaten der verantwortlichen Person bzw. Stelle:
 
- Roland T. Lichti
- Telefon: +49 171 218 59 27
- **E-Mail:** info@kaiserpfalz-edv.de(info@kaiserpfalz-edv.de)
+> Roland T. Lichti
+> **Telefon:** +49 171 218 59 27
+> **E-Mail:** info@kaiserpfalz-edv.de(info@kaiserpfalz-edv.de)
 
 
 
