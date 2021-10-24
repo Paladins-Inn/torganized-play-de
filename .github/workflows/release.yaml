@@ -21,7 +21,7 @@ jobs:
         name: website
         path: './public'
     - name: Upload Artifact
-      id: upload-jar
+      id: upload-website
       uses: actions/upload-artifact@v2
       with:
         name: kaiserpfalz-edv
@@ -33,32 +33,31 @@ jobs:
     runs-on: ubuntu-latest
     needs: hugo
     steps:
-      - name: checkout sources
-        id: checkout-sources
-        uses: actions/checkout@v2
+    - name: checkout sources
+      id: checkout-sources
+      uses: actions/checkout@v2
 
-      - name: retrieve build
-        id: retrieve-build
-        uses actions/download-artifact@v2
-        with:
-          name: kaiserpfalz-edv
+    - name: retrieve build
+      id: retrieve-build
+      uses actions/download-artifact@v2
+      with:
+        name: kaiserpfalz-edv
 
-      - name: Buildah
-        id: build-container
-        uses: redhat-actions/buildah-build@v2
-        with:
-          image: static-kaiserpfalz-edv
-          tags: release ${{ github.sha }}
-          dockerfiles: |
-            ./Dockerfile
-          context: ./
+    - name: Buildah
+      id: build-container
+      uses: redhat-actions/buildah-build@v2
+      with:
+        image: static-kaiserpfalz-edv
+        tags: release ${{ github.sha }}
+        dockerfiles: ./Dockerfile
+        context: ./
 
-      - name: Push To quay
-        id: push-to-quay
-        uses: redhat-actions/push-to-registry@v2
-        with:
-          image: ${{ env.IMAGE }}
-          tags: ${{ env.VERSION }} latest ${{ github.sha }}
-          registry: ${{ secrets.QUAY_REPO }}
-          username: ${{ secrets.QUAY_USER }}
-          password: ${{ secrets.QUAY_TOKEN }}
+    - name: Push To quay
+      id: push-to-quay
+      uses: redhat-actions/push-to-registry@v2
+      with:
+        image: ${{ env.IMAGE }}
+        tags: ${{ env.VERSION }} latest ${{ github.sha }}
+        registry: ${{ secrets.QUAY_REPO }}
+        username: ${{ secrets.QUAY_USER }}
+        password: ${{ secrets.QUAY_TOKEN }}
