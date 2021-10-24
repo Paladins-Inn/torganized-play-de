@@ -48,7 +48,7 @@ jobs:
       uses: redhat-actions/buildah-build@v2
       with:
         image: static-kaiserpfalz-edv
-        tags: release ${{ github.sha }}
+        tags: release
         dockerfiles: ./Dockerfile
         context: ./
 
@@ -57,7 +57,7 @@ jobs:
       uses: redhat-actions/push-to-registry@v2
       with:
         image: static-kaiserpfalz-edv
-        tags: release ${{ github.sha }}
+        tags: release
         registry: ${{ secrets.QUAY_REPO }}
         username: ${{ secrets.QUAY_USER }}
         password: ${{ secrets.QUAY_TOKEN }}
