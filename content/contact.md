@@ -20,7 +20,7 @@ Sollten Sie Fragen zum Datenschutz haben, finden Sie nachfolgend die Kontaktdate
 
 > Roland T. Lichti
 > **Telefon:** +49 171 218 59 27
-> **E-Mail:** info@kaiserpfalz-edv.de(info@kaiserpfalz-edv.de)
+> **E-Mail:** [info@kaiserpfalz-edv.de](mailto:info@kaiserpfalz-edv.de)
 
 
 
