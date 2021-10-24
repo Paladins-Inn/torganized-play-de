@@ -8,7 +8,7 @@ on:
 
 jobs:
   hugo:
-    runs-on: [ podman ]
+    runs-on: [ ubuntu-latest ]
     steps:
     - uses: actions/checkout@master
       with:
@@ -30,7 +30,7 @@ jobs:
 
 
   container-build:
-    runs-on: [ podman ]
+    runs-on: [ ubuntu-latest ]
     needs: hugo
     steps:
     - name: checkout sources
