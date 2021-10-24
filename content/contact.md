@@ -1,5 +1,5 @@
 +++
-title = "Impressum"
+title = "Contact"
 slug = "contact"
 +++
 
