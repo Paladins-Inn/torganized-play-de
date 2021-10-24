@@ -56,8 +56,8 @@ jobs:
       id: push-to-quay
       uses: redhat-actions/push-to-registry@v2
       with:
-        image: ${{ env.IMAGE }}
-        tags: ${{ env.VERSION }} latest ${{ github.sha }}
+        image: static-kaiserpfalz-edv
+        tags: release ${{ github.sha }}
         registry: ${{ secrets.QUAY_REPO }}
         username: ${{ secrets.QUAY_USER }}
         password: ${{ secrets.QUAY_TOKEN }}
