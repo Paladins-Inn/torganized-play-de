@@ -1,0 +1,48 @@
+## This is basic continuous integration build for your Quarkus application.
+
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: jakejarvis/hugo-build-action@master  # ...or replace 'master' with a full version tag, such as: v0.64.1
+      with:
+        args: --minify
+    - uses: actions/upload-artifact@master
+      with:
+        name: website
+        path: './public'
+
+  container-build:
+    runs-on: [ podman ]
+    needs: hugo
+    steps:
+      - name: checkout sources
+        id: checkout-sources
+        uses: actions/checkout@v2
+
+      - name: Buildah
+        id: build-container
+        uses: redhat-actions/buildah-build@v2
+        with:
+          image: static-kaiserpfalz-edv
+          tags: release ${{ github.sha }}
+          dockerfiles: |
+            ./Dockerfile
+          context: ./
+
+      - name: Push To quay
+        id: push-to-quay
+        uses: redhat-actions/push-to-registry@v2
+        with:
+          image: ${{ env.IMAGE }}
+          tags: ${{ env.VERSION }} latest ${{ github.sha }}
+          registry: ${{ secrets.QUAY_REPO }}
+          username: ${{ secrets.QUAY_USER }}
+          password: ${{ secrets.QUAY_TOKEN }}
