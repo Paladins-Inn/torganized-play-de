@@ -22,7 +22,7 @@ jobs:
         path: './public'
 
   container-build:
-    runs-on: [ podman ]
+    runs-on: [ ubuntu-latest ]
     needs: hugo
     steps:
       - name: checkout sources
