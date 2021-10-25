@@ -1,4 +1,4 @@
-baseURL = "https://www.de.torganized-play.org/"
+baseURL = "/"
 languageCode = "de-de"
 title = "Torganisiertes Spiel"
 theme = "dimension"
