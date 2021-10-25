@@ -1,8 +1,8 @@
-----
+---
 title: "Impressum"
 author: "Roland T. Lichti"
 date: "2021-10-25"
-----
+---
 
 ## Information according to § 18 para. 2 Medienstaatsvertrag
 
