@@ -38,7 +38,7 @@ jobs:
       id: build-container
       uses: redhat-actions/buildah-build@v2
       with:
-        image: static-kaiserpfalz-edv
+        image: ${{ secrets.IMAGE_NAME }}
         tags: release ${{ github.sha }}
         dockerfiles: ./Dockerfile
         context: ./
@@ -47,7 +47,7 @@ jobs:
       id: push-to-quay
       uses: redhat-actions/push-to-registry@v2
       with:
-        image: static-kaiserpfalz-edv
+        image: ${{ secrets.IMAGE_NAME }}
         tags: release ${{ github.sha }}
         registry: ${{ secrets.QUAY_REPO }}
         username: ${{ secrets.QUAY_USER }}
