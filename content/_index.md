@@ -1,6 +1,6 @@
 ---
 title: Torganisiertes Spiel
 description: Deutschland
-background: "images/bg.jpg"
+background: "images/bg.png"
 logo: "images/delphi-council.png"
 ---
