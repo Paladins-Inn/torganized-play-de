@@ -1,6 +1,7 @@
 ---
-draft: false
 title: "Was ist ein 'organisiertes Spiel'?"
+date: 2021-02-09
+draft: false
 weight: 20
 ---
 

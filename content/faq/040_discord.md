@@ -1,6 +1,7 @@
 ---
-draft: false
 title: "Discord"
+date: 2021-02-09
+draft: false
 weight: 40
 ---
 

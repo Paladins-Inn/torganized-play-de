@@ -1,6 +1,7 @@
 ---
-draft: false
 title: "Was ist anders als beim englischsprachigen 'Torganized Play'?"
+date: 2021-02-09
+draft: false
 weight: 30
 ---
 

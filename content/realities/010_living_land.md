@@ -1,7 +1,9 @@
 ---
-draft: false
 title: "Das Lebendige Land"
 description: "Dinosaurier und urzeitliche Wälder"
+date: 2021-02-09
+draft: false
+weight: 10
 ---
 
 Nordamerika wurde von einer urzeitlichen Realität angegriffen. Moderne
