@@ -1,5 +1,5 @@
 ---
-title: "Was ist 'Torg Eternity'?
+title: "Was ist 'Torg Eternity'?"
 ---
 
 *Später heute, morgen früh, irgendwann nächste Woche ging es mit der Welt
