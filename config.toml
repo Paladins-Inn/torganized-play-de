@@ -29,7 +29,7 @@ pygmentsCodeFences=true
   mainSections = ['regeln'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  gopher = "/images/delphi-council.png"
   h1 = 'Bummer!'
   p = "Diese Seite existiert nicht in dieser Realität."
 
@@ -40,9 +40,9 @@ pygmentsCodeFences=true
   portfolio = "regeln"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = '/images/bg.png'
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/delphi-council.png" # - default "/images/edna-west.jpg"
+  logo = "/images/delphi-council.png"
 [params.assets]
   favicon = ""
   customCSS = ""
