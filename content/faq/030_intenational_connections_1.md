@@ -1,5 +1,5 @@
 ---
-title: "Was ist gleich zum englischsprachigen 'Torganized Play'?
+title: "Was ist gleich zum englischsprachigen 'Torganized Play'?"
 ---
 
 Wir benutzen die gleichen Regelanpassungen, die von Torganized Play vorgegeben

@@ -1,5 +1,5 @@
 ---
-title: "Was ist ein 'organisiertes Spiel'?
+title: "Was ist ein 'organisiertes Spiel'?"
 ---
 
 Eine Organiertes Spiel-Kampagne ist eine gemeinsame Kampagne, die von vielen

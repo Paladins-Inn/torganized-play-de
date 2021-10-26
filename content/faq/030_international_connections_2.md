@@ -1,5 +1,5 @@
 ---
-title: "Was ist anders als beim englischsprachigen 'Torganized Play'?
+title: "Was ist anders als beim englischsprachigen 'Torganized Play'?"
 ---
 
 Ulisses North America ist natürlich einige Publikationen voraus. Daher finden
