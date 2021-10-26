@@ -14,11 +14,11 @@ pygmentsCodeFences=true
   sub = "Wir organisieren Torg-Spiele im deutschsprachigen Raum"
 
 [params.main]
-  latestPublishHeader = "My Latest Project"
+  latestPublishHeader = ""
 
 [taxonomies]
-  design = "designs"
-  tech = "techs"
+  realm = "Realität"
+  clearance = "Freigabe"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -26,7 +26,7 @@ pygmentsCodeFences=true
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-  mainSections = ['regeln'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+  mainSections = ['rules'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.notFound]
   gopher = "/images/delphi-council.png"
@@ -37,7 +37,7 @@ pygmentsCodeFences=true
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
   post = "article"
-  portfolio = "regeln"
+  portfolio = "rules"
 
 [params.sidebar]
   backgroundImage = '/images/bg.png'
