@@ -1,7 +1,6 @@
 ---
 title: "Impressum"
-author: "Roland T. Lichti"
-date: "2021-10-25"
+description: "Die gesetzlich notwendigen Informationen"
 ---
 
 ## Information according to § 18 para. 2 Medienstaatsvertrag

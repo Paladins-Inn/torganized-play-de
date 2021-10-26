@@ -1,4 +1,116 @@
 baseURL = "/"
 languageCode = "de-de"
 title = "Torganisiertes Spiel"
-theme = "dimension"
+theme = "personal-web"
+copyright="© Torganisiertes Spiel"
+googleAnalytics = ""
+enableEmoji=false
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Torganisiertes Spiel"
+  sub = "Wir organisieren Torg-Spiele im deutschsprachigen Raum"
+
+[params.main]
+  latestPublishHeader = "My Latest Project"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['regeln'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "Diese Seite existiert nicht in dieser Realität."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "regeln"
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/delphi-council.png" # - default "/images/edna-west.jpg"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+#  github = "https://github.com/"
+#  twitter = "https://twitter.com/"
+#  linkedin = "https://www.linkedin.com/in/"
+#  medium = "https://medium.com/"
+#  codepen = "https://codepen.io/"
+#  facebook = "https://www.facebook.com/"
+#  youtube = "https://www.youtube.com/"
+#  instagram = "https://www.instagram.com/"
+#  gitlab = "https://gitlab.com/"
+#  keybase = "https://keybase.io/"
+
+[params.contact]
+  email = "info@de.torganized-play.de"
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "Über uns"
+  title = "Über das Torganisierte Spiel"
+  url = "/about/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "regeln"
+  name = "Regeln"
+  title = "Regeln"
+  url = "/regeln/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Neuigkeiten"
+  title = "Neuigkeiten vom Delphi-Rat"
+  url = "/post/"
+  weight = -100
+
+[[menu.main]]
+  identifier = "impressum"
+  name = "Impressum"
+  title = "Impressum"
+  url = "/impressum/"
+  weight = 0
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
