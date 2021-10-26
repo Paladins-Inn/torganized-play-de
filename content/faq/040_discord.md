@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Discord"
 weight: 40
 ---

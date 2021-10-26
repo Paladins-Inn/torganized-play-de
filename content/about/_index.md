@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Team und Kontakt
 author: Roland T. Lichti
 date: 2021-10-25

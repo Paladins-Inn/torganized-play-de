@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Impressum"
 description: "Die gesetzlich notwendigen Informationen"
 ---

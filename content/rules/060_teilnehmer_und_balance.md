@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Teilnehmeranzahl & Balance"
 weight: 60
 ---

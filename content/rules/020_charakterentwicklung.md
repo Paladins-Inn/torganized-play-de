@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Charakterentwicklung
 weight: 20
 ---

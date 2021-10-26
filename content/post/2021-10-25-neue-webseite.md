@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Neue Webseite"
 description: "Das Torganisierte Spiel in Deutschland hat eine neue Webseite"
 date: 2021-10-25

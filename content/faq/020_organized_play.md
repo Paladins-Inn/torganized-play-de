@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Was ist ein 'organisiertes Spiel'?"
 weight: 20
 ---

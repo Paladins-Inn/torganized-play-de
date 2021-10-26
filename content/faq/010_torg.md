@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Was ist 'Torg Eternity'?"
 weight: 10
 ---

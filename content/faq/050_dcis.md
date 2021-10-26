@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "DCIS - Delphi Council Information System"
 weight: 50
 ---

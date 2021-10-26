@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Charaktererschaffung"
 weight: 10
 ---

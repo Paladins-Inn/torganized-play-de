@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "KLarstellungen zu den Regeln"
 weight: 50
 ---
