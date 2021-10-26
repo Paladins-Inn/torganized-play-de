@@ -1,5 +1,6 @@
 ---
 title: "DCIS - Delphi Council Information System"
+weight: 50
 ---
 
 Wir haben das [DCIS](https://www.delphi-council.org) entwickelt, um die

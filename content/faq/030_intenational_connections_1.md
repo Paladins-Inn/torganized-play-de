@@ -1,5 +1,6 @@
 ---
 title: "Was ist gleich zum englischsprachigen 'Torganized Play'?"
+weight: 30
 ---
 
 Wir benutzen die gleichen Regelanpassungen, die von Torganized Play vorgegeben

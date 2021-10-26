@@ -1,5 +1,6 @@
 ---
 title: "KLarstellungen zu den Regeln"
+weight: 50
 ---
 
 Alle Spielleiter sind aufgefordert, den durch Ulisses Spiele veröffentlichten

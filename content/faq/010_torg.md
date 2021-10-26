@@ -1,5 +1,6 @@
 ---
 title: "Was ist 'Torg Eternity'?"
+weight: 10
 ---
 
 *Später heute, morgen früh, irgendwann nächste Woche ging es mit der Welt

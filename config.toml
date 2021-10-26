@@ -67,25 +67,48 @@ pygmentsCodeFences=true
 [menu]
 
 [[menu.main]]
-  identifier = "about"
-  name = "Über uns"
-  title = "Über das Torganisierte Spiel"
-  url = "/about/"
-  weight = -120
-
-[[menu.main]]
-  identifier = "regeln"
-  name = "Regeln"
-  title = "Regeln"
-  url = "/regeln/"
-  weight = -110
-
-[[menu.main]]
   identifier = "blog"
   name = "Neuigkeiten"
   title = "Neuigkeiten vom Delphi-Rat"
   url = "/post/"
-  weight = -100
+  weight = -200
+
+[[menu.main]]
+  identifier = "realities"
+  name = "Realitäten"
+  title = "Realitäten"
+  url = "/realities/"
+  weight = -190
+
+[[menu.main]]
+  identifier = "missions"
+  name = "Szenarien"
+  title = "Szenarien"
+  url = "/missions/"
+  weight = -180
+
+[[menu.main]]
+  identifier = "rules"
+  name = "Regeln"
+  title = "Regeln"
+  url = "/rules/"
+  weight = -170
+
+
+
+[[menu.main]]
+  identifier = "about"
+  name = "Über uns"
+  title = "Über das Torganisierte Spiel"
+  url = "/about/"
+  weight = -20
+
+[[menu.main]]
+  identifier = "faq"
+  name = "F.A.Q."
+  title = "F.A.Q."
+  url = "/faq/"
+  weight = -10
 
 [[menu.main]]
   identifier = "impressum"

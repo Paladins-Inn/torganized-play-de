@@ -1,5 +1,6 @@
 ---
 title: "Ausrüstung"
+weight: 30
 ---
 
 Die Spielercharaktere können mit Ausrüstung aus dem Grundregelwerk starten.

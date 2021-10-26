@@ -1,5 +1,6 @@
 ---
 title: "Teilnehmeranzahl & Balance"
+weight: 60
 ---
 
 Während wir von 4 bis 5 Spielern (zuzüglich Spielleiter) ausgehen, sind die

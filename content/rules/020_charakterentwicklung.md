@@ -1,5 +1,6 @@
 ---
 title: Charakterentwicklung
+weight: 20
 ---
 
 Beim Steigern werden die Regeln der Grundregelwerks genutzt.

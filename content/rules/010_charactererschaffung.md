@@ -1,5 +1,6 @@
 ---
 title: "Charaktererschaffung"
+weight: 10
 ---
 
 Die Charaktererschaffung folgt den Regeln des Grundregelwerks von

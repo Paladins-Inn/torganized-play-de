@@ -1,5 +1,6 @@
 ---
 title: "Verhaltenskodex"
+weight: 40
 ---
 
 Folgt einfach dem Gesetz Wil Wheatons: "*Sei kein Ar...*". Leider wird dieses
