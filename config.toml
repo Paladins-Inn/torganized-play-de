@@ -4,7 +4,7 @@ title = "Torganisiertes Spiel"
 theme = "personal-web"
 copyright="© Torganisiertes Spiel"
 googleAnalytics = ""
-enableEmoji=false
+enableEmoji=true
 enableRobotsTXT=true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
@@ -26,7 +26,7 @@ pygmentsCodeFences=true
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-  mainSections = ['rules'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+  mainSections = ['post', 'about']
 
 [params.notFound]
   gopher = "/images/delphi-council.png"
