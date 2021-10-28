@@ -1,7 +1,7 @@
 ---
 draft: false
-title: POST
-description: 'Posts Section'
+title: Neuigkeiten
+description: 'Neuigkeiten vom Delphi-Rat'
 ---
 
 Hier findest Du die Neuigkeiten aus dem Spiel und vom Delphi-Rat.

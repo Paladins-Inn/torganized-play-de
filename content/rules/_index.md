@@ -1,6 +1,5 @@
 ---
 title: Regeln
-date: 2021-02-09
 draft: false
 description: 'Die Regeln des Torganisierten Spiels'
 ---

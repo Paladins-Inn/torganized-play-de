@@ -14,7 +14,7 @@ pygmentsCodeFences=true
   sub = "Wir organisieren Torg-Spiele im deutschsprachigen Raum"
 
 [params.main]
-  latestPublishHeader = ""
+  latestPublishHeader = "Letzte Meldung"
 
 [taxonomies]
   realm = "Realität"
@@ -26,7 +26,7 @@ pygmentsCodeFences=true
 [params]
   breadcrumb = true
   accentColor = "#FD3519"
-  mainSections = ['post', 'about']
+  mainSections = ['post']
 
 [params.notFound]
   gopher = "/images/delphi-council.png"
