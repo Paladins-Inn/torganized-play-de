@@ -1,5 +1,5 @@
 ---
-title: "Kern Erde"
+title: "Zentralerde"
 description: "Die 'Die Hard' Erde"
 date: 2021-02-09
 draft: false
