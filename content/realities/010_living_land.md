@@ -1,5 +1,5 @@
 ---
-title: "Das Lebendige Land"
+title: "Das Lebende Land"
 description: "Dinosaurier und urzeitliche Wälder"
 date: 2021-02-09
 draft: false
@@ -15,5 +15,5 @@ Echsenmenschen, Edeinos genannt, haben die Länder zwischen sich aufgeteilt und
 verteidigen nun ihr Land mittels der Wunder ihrer Göttin Lanala. Ihr Anführer
 und Hohepriester Baruk Kaah, der Saar der Edeinos, hat auch ein Auge auf Kanada
 und Zentralamerika geworfen. Er wird auch diese Gebiete bald seinem
-**lebendigen Land** hinzufügen.
+**lebenden Land** hinzufügen.
 
