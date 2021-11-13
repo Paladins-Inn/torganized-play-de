@@ -1,0 +1,36 @@
+- Timeline für alle mit Konfliktlösung
+  - Infiniverse Newsletter (oTorg)
+    - Gerüchte und 3 Ausgaben später dann die Auswertung
+  - 
+- Möglichst kompatibel zu US TP
+  - eventuell 2 Varianten des TS ("Tabletop" und "Roleplay")
+- Spielen in der Zentralerde
+  - Day Zero-Abenteuer
+  - "Börsenspiel" 
+    - (1 Spieler=1 CEO)
+    - Monatsbericht
+- Kampagne durch alle Cosms
+
+- Ulisses Con als Auftakt
+  - mit Panel
+  - Multiparalleles Spiel
+  
+  Delphi Council
+  - PDF-Export
+  - Liste der direkten Kontakte je Storm Knight
+  - Alle Missionen als Liste
+  - NSCs
+    - NSC-Kontakte bei Missionen (und Darstellung gesammelt in der Personalakte)
+      - Welcher NSC
+      - Cosm
+      - "Loyalität"
+      - Notizen
+    - NSC-Datenbank (auch Gegner?)
+      - Name
+      - Typ
+      - Bild
+      - Token
+    - Kontaktverfolgung mit NSCs (Historie)
+      - Loyalitätsänderung
+      - Notizen
+      
