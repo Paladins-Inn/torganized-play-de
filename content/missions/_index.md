@@ -14,7 +14,7 @@ Möglichkeit beschränkt, die Kampagne zu beeinflussen.
 
 ## Missionstypen
 
-### Missinionen
+### Missionen
 
 Missionen sind 1-Akter, die in einem Spiel von 4-5 Stunden gespielt werden. Die
 meisten Spiele werden solche Missionen sein.
