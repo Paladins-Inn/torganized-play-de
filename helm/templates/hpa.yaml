@@ -1,0 +1,26 @@
+{{- if .Values.autoscaling.enabled }}
+---
+kind: HorizontalPodAutoscaler
+apiVersion: autoscaling/v2
+metadata:
+  name: {{ include "hugo-static.fullname" . }}
+  labels:
+    {{- include "hugo-static.labels" . | nindent 4 }}
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ include "hugo-static.fullname" . }}
+  minReplicas: {{ .Values.autoscaling.minReplicas }}
+  maxReplicas: {{ .Values.autoscaling.maxReplicas }}
+  metrics:
+  {{- range $r := .Values.autoscaling.utlilization }}
+    - type: Resource
+      resource:
+        name: {{ $r.name }}
+        target:
+          type: AverageValue
+          averageUtilization: {{ $r.percentage }}
+  {{- end }}
+
+{{- end }}

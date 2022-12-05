@@ -1,0 +1,30 @@
+{{- $fullName := include "hugo-static.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+---
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "hugo-static.labels" . | nindent 4 }}
+spec:
+  tls:
+  - hosts:
+    {{- range .Values.host.other }}
+    - {{ . | quote }}
+    {{- end }}
+    secretName: {{ $fullName }}-tls
+  rules:
+  {{- range .Values.host.other }}
+  - host: {{ . | quote }}
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: {{ $fullName }}
+            port:
+              number: {{ $svcPort }}
+  {{- end }}
+

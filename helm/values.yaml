@@ -1,0 +1,84 @@
+# Default values for loki-docs.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+source:
+  uri: https://github.com/Paladins-Inn/torganized-play.de.git
+  ref: main
+  triggerSecret: AgBfqNiAQInZSVSSa8QufczfjzDnCvfZRYPxAm+mlfFUniwLaXGdpl+MYZteKaULqmmic0zeUeYFTR2kUVOUmc6PeBVDC9VOyV9tj7TziX0DE0XfBPK+jEnMj9AeQ6HeCNjO+juO6ISPZEE0YRa0XFmCVYJbCCtkzBr9vWgEsdXKV/GvlXOFoSqy6O/Y5sN1jrlBpLVA1zCkNLtZ5837kDfcWFuv5HnplYbxqiJLM37nlh812pS4drGQ4vEvLNhN6AZmKqssMP+Z80PwVEKO4/3+JgPYv4CDo/3ZwVCsFcFCkzw7fKIDSiWWAMYZmH8K2n1onp9tvuzHyAe6V166+lu8/7KSLXwVBt+V8Fpq5MT/vAfW3MdmczyccgelNnmTD6wfvJciV5sW3LtKw9uVcmbpRJX6YtEbVwMJQwdwnu9+9b8V08mvGJJhNR3TtRMpNrdsyT8dtcBXfxMuOr0NUEqmCXk9HJegWnfnXfUnkluM3ca74baPdJxSLgAFHB34FhSU89RasYMKOwJgviMZ7y089NCIOk1E6Z0uQvcV4nUx6T4ehqPt95khVF5d/GTs/veSpaeYtulMzds5PC0NeB5dDMlBEUZ4qeS14zwJ3T6PT6XIg8+qpBGtNZORVkKSRsLXbCg8DKIUAj4OxyyVvvCBJAyTW0mA7MvsG6BzEQV6FxUwctgwpdo4GxpdNMgO4BMradLSmdfETA6I/yDtselG
+
+image:
+  pullPolicy: Always
+
+buildimage:
+  repository: quay.io/klenkes74/hugo-builder
+  pullPolicy: IfNotPresent
+  tag: "0.107.0"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+podAnnotations:
+  alpha.image.policy.openshift.io/resolve-names: '*'
+
+podSecurityContext:
+  allowPrivilegeEscalation: false
+  runAsNonRoot: true
+  capabilities:
+    drop:
+    - ALL
+  seccompProfile:
+    type: RuntimeDefault
+  # fsGroup: 2000
+
+securityContext: {}
+
+service:
+  type: ClusterIP
+  port: 8080
+
+host:
+  main: www.de.torganized-play.de
+  other:
+  - www.de.torganized-play.de
+  - www.torganized-play.de
+
+tls:
+  issuer:
+    kind: ClusterIssuer
+    name: letsencrypt-prod
+  duration: 2160h
+  renewBefore: 1800h
+
+
+resources:
+  limits:
+    cpu: 20m
+    memory: 20Mi
+  requests:
+    cpu: 20m
+    memory: 20Mi
+
+autoscaling:
+  enabled: true
+  minReplicas: 1
+  maxReplicas: 10
+  utlilization:
+  - name: cpu
+    percentage: 90
+  - name: memory
+    percentage: 90
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

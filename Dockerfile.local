@@ -8,7 +8,9 @@ USER root
 ADD ./ /opt/app-root/src
 
 RUN git submodule update --init --recursive 
+RUN ls -la themes
 RUN hugo
+RUN find public
 
 FROM ubi8/nginx-120
 
