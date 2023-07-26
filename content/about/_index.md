@@ -25,9 +25,7 @@ Das deutsche Orgateam besteht aus
 | Kürzel    | Name             | Email-Adresse           | Discord        | Telefon           |
 |----       |----              |----                     |----            |----               |
 | FraZ      | Frank Zankl      |                         | FraZ#1033      |                   |
-| ivy       |                  |                         | Ivy#4963       |                   |
 | klenkes74 | Roland T. Lichti | klenkes@paladins-inn.de | klenkes74#0355 | +49 171 218 59 27 |
-| wusch     |                  |                         | wusch#1292     |                   |
 
 
 
